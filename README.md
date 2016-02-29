@@ -26,15 +26,17 @@ This current program allows a user to specify the number of elevators, floors an
  
 ### Quick Start
 
-1.  
+1. Clone this repository  
+
     ```bash
     git clone http://github.com/bernadinm/elevator 
     ```
 
-2.  Modify elevator.py to add/remove the number of elevators, floors and people
+2.  Modify elevator.py's main fuction to add/remove the number of elevators, floors and people
 ######( Or keep defaults, 3 elevator, 8 floors, 7 request )
 
-3. 
+3. Begin elevator simulation
+
    ```bash
    python elevator.py 
    ```
