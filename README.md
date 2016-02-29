@@ -18,7 +18,7 @@ You can use the language of your choice to implement an elevator control system.
 
 ## Solution
 
-This current program allows a user to specify the number of elevators, floors and how many people are going to which floors. The challenge only listed a FCFS solution which would be a elevator you wouldn't want to ride. Our algorithm bypasses this limitation and implements a priority queue for each elevator. This allows a user to share an elevator with another person and skip floors that are not going the same direction. It will also pick up people going the same direction without the need to call another elevator. This saves on resources allowing users to share the same elevator. 
+This current program allows a user to specify the number of elevators, floors and how many people are going to which floors. The challenge only listed a FCFS solution which would be a elevator you wouldn't want to ride. Our algorithm bypasses this limitation and implements a priority queue for each elevator. This allows a user to share an elevator with another person and skip floors that are not going the same direction. This solution is modeled by a realistic elevator system. It will also pick up people going the same direction without the need to call another elevator. This saves on resources allowing users to share the same elevator. 
 
 ## Requirements
 
@@ -26,12 +26,18 @@ This current program allows a user to specify the number of elevators, floors an
  
 ### Quick Start
 
-1.  ``` git clone http://github.com/bernadinm/elevator ```
+1.  
+    ```bash
+    git clone http://github.com/bernadinm/elevator 
+    ```
 
 2.  Modify elevator.py to add/remove the number of elevators, floors and people
 ######( Or keep defaults, 3 elevator, 8 floors, 7 request )
 
-3. ``` python elevator.py ```
+3. 
+   ```bash
+   python elevator.py 
+   ```
 
 ### Example output
 
