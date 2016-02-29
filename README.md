@@ -33,7 +33,7 @@ This current program allows a user to specify the number of elevators, floors an
     ```
 
 2.  Modify elevator.py's main function to add/remove the number of elevators, floors and people
-    *( Or keep defaults, 3 elevator, 8 floors, 7 request )*
+    *( or keep defaults, 3 elevator, 8 floors, 7 request )*
 
 3. Begin elevator simulation
 
