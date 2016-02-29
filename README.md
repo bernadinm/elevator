@@ -88,3 +88,6 @@ Elevator id: eb0ef2a8-b672-435a-b4d3-ef86a86e1c68 is remaining idle on floor 1
 Elevator id: eb0ef2a8-b672-435a-b4d3-ef86a86e1c68 is remaining idle on floor 1
 Elevator id: eb0ef2a8-b672-435a-b4d3-ef86a86e1c68 is remaining idle on floor 1
 ```
+## Improvements
+
+* ECS send an elevator to pick up a passenger to a floor going opposite direction. Currently this is allowed, but the user's required destination will be granted after all request going the same direction is served. You will see better results with mulitple elevators, but improvements will be fixed later.
